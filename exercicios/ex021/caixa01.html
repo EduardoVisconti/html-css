@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixaz</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray; /*shorthand */
+
+            padding: 10px; /* aqui estamos usando apra os 4 cantos.*/
+
+            /* margin: auto; alinhar a caixa no meio, qnd for apenas texto podemos usar text align */
+
+            margin: 20px auto 40px auto;
+
+            /* 
+            outline: 9px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+
+            outline: 5px dashed salmon;
+        }
+
+        a {
+            border-width: 10px; /* grossura da borda */
+            border-style: dotted;
+            border-color: red;
+
+            padding-top: 10px; /* Quando botamos um valor, vai para os 4 cantos.. Quando botamos 2 valor, o primeiro valor vai pra cima/baixo e o segundo para os lados. */
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* 
+    Em HTML é ID = em CSS é #
+    Em HTML é class = em CSS é . 
+*/
+
+body {
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2 {
+    color: rgb(2, 61, 2);
+}
+
+.basico {
+    color: rgb(34, 139, 13);
+}
+
+.intermediario {
+    color: rgb(131, 139, 13);
+}
+
+.avancado {
+    color: rgb(139, 17, 13);
+}
+
+.destaque {
+    background-color: white;
+    width: fit-content; /*Caber nos textos*/
+}
+
+.destaque:hover {
+    color: black;
+}
+
+div > p { /* O parágrafo que está na div, o filho da div */
+    display: none; /* Escondendo a div */
+}
+
+div:hover > p { /* Quando passar o mouse em cima do parágrafo */
+    display: block; /* Mostrar */
+    color: white;
+    background-color: red;
+    width: fit-content;
+}
+
+div:hover {
+    color: red;
+}

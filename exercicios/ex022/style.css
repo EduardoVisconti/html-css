@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    background-color: lightgreen;
+    padding: 5px;
+    box-shadow: 8px 8px 9px rgba(157, 207, 168, 0.63); /* horizontal, verdical, espalhamento da sombra */
+}
+
+nav a {
+    text-decoration:none;
+    color: green;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: red;
+}
+
+main {
+    background-color: white;
+    margin: 0px;
+    padding: 1px;
+}
+
+#assuntos {
+    font-weight: bolder;
+}
+
+article {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+}
