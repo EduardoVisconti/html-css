@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+        
+        /* cap 14 aula 03
+
+        Para mais informações sobre as fontes, acessar: css web safe font combinations (w3)
+
+        */
+           font-family: Arial, Helvetica, sans-serif;
+
+        /*  cap 14 aula 04
+
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+
+        16px geralmente = 1em
+
+        */
+
+            /*font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;*/
+
+        /* aula 05
+
+        lighter, normal, bold, bolder
+           ou podemos usar a forma numerica de 100-900 (Não são todas as fontes que alteram) */
+        }
+
+        h1, h2 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand 
+
+            font-style > font-weight > font-size > font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quas eius adipisci suscipit quae saepe ad perferendis tempora id optio provident debitis accusantium placeat ex velit, in vel et sunt?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, aut voluptatibus est vero molestias inventore repudiandae natus obcaecati corporis quas accusantium, error doloremque ducimus provident neque voluptatum iusto. Dolor, nihil!</p>
+    
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est pariatur repellat, accusantium temporibus inventore voluptatum reprehenderit dolorum eos dolore consequatur minus a ad officia reiciendis, saepe cupiditate laborum labore.</p>
+</body>
+</html>
