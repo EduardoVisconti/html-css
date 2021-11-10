@@ -11,7 +11,7 @@
             # = ID
             . = class
             : = pseudo-class
-            :: = pseudo-elemnt
+            :: = pseudo-element
             > = children
         */
 
@@ -29,7 +29,7 @@
             color: purple;
         }
 
-        a:hover { /* Quando passae o mouse em cima do link */
+        a:hover { /* Quando passar o mouse no link */
             text-decoration: underline; /* Sublinhar quando passar o mouse */
             color: black;
         }
@@ -38,7 +38,15 @@
             color: yellow;
         }
 
-        .especial {
+        /* a::after {  Depois de todos os links, deixa o "aviso" que é um link.
+
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        } */
+
+        .especial { /* Fazendo uma classe especial para dar um "destaque" no link */
             background-color: rgb(199, 142, 142);
         }
 
@@ -46,18 +54,17 @@
             content: '>';
         }
 
-        .especial::after {
+        .especial::after { 
             content: '<';
         }
-
     </style>
 </head>
 <body>
     <h1>Personalizando links</h1>
     <ul>
-        <li><a href="https://" target="_blank">Repositório Github</a></li>
-        <li><a href=";" target="_blank" class="especial">Canal do Youtube</a></li>
-        <li><a href=";" target="_blank">Site do CursoEmVideo</a></li>
+        <li><a href="#" target="_blank">Repositório Github</a></li>
+        <li><a href="#" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="#" target="_blank">Site do CursoEmVideo</a></li>
     </ul>
 </body>
 </html>

@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
 /* 
-    Em HTML é ID = em CSS é #
-    Em HTML é class = em CSS é . 
+    Em HTML é ID = em CSS é # (Só pode ter um elemento)
+    Em HTML é class = em CSS é . (Pode vários elementos)
+
+    Podemos usar ID e class no mesmo elemento.
 */
 
 body {
-    background-color: lightgreen;
+    background-color: rgba(136, 224, 136, 0.5);
     font-family: Arial, Helvetica, sans-serif;
 }
 
