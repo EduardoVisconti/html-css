@@ -7,17 +7,19 @@ body {
 
 header {
     background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
 
 nav {
-    background-color: lightgreen;
+    background-color: rgb(3, 71, 3);
     padding: 5px;
-    box-shadow: 8px 8px 9px rgba(157, 207, 168, 0.63); /* horizontal, verdical, espalhamento da sombra */
+    box-shadow: 5px 5px 5px rgba(211, 16, 16, 0.63); /* horizontal, verdical, espalhamento da sombra */
 }
 
 nav a {
     text-decoration:none;
-    color: green;
+    color: rgb(210, 248, 210);
     font-weight: bold;
     margin-right: 20px;
 }
@@ -29,16 +31,21 @@ nav a:hover {
 
 main {
     background-color: white;
-    margin: 0px;
-    padding: 1px;
+    margin: 10px;
+    padding: 10px;
 }
 
 #assuntos {
     font-weight: bolder;
 }
 
-article {
-    background-color: lightgreen;
+#noticias {
+    background-color: rgba(70, 110, 75, 0.664);
+    padding: 5px;
+}
+
+aside {
+    background-color: lightgrey;
 }
 
 footer {
