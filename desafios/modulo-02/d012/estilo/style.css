@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Righteous', cursive;
+    --fonte03: 'Amatic SC', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: gray;
+    font-family: var(--fonte01);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-family: var(--fonte02);
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 8vh 0 8vh 30px;
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+    line-height: 2em; /* Distanciamento/Altura das linhas */
+}
+
+section.normal {
+    background-color: white;
+}
+
+section#img02 {
+    background-image: url('imagens/background001.jpg');
+}
+
+section.imagem p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: inline-block;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
