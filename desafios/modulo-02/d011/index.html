@@ -6,14 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espaço</title>
     <style>
-        .espaco {
-            background: black url(./imagens/espaco.jpg) cover;
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .space {
+            background: black url(./imagens/espaco.jpg) center no-repeat fixed;
+            background-size: cover;
+            height: 100vh; /* Fazer o box aparecer */
+        }
+
+        .astronaut {
+            background-image: url(./imagens/astronauta.png);
+            background-size: 100% 100%; /* Imagem aparecer 100% de largura e altura */
+            height: 500px;
+            position: absolute;
+            width: 500px;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <section class="espaco">
-        <article class="astronauta">
+    <section class="space">
+        <article class="astronaut">
+
         </article>
     </section>
 </body>
